@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/last-weekend', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'last-weekend.html'));
+  res.sendFile(path.join(__dirname, 'public', 'spen-last-weekend-standalone-rebuild.html'));
 });
 
 app.listen(PORT, () => {
