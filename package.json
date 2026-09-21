@@ -1,0 +1,12 @@
+{
+  "name": "spen-landing-pages",
+  "version": "1.0.0",
+  "description": "SPEN static landing pages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
